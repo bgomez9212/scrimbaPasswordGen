@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    background: #1F2937;
+}
+
+/* typography */
+
+h1 {
+    color: #FFFFFF;
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    margin-bottom: 1.03px;
+    font-size: 40px;
+}
+
+h3 {
+    color: #D5D4D8;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 6.2vh;
+}
+
+h4 {
+    color: #55F991;
+    font-size: 16px;
+    background: #273549;
+    border-radius: 6px;
+    margin: 0;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: 400;
+    width: 211px;
+}
+
+.green-text {
+    color: #4ADF86;
+}
+
+button {
+    font-size: 16px;
+    padding: 9px 17px;
+    border-radius: 6px;
+    border: none;
+    background: #10B981;
+    color: #FFFFFF;
+    text-align: center;
+    width: 253px;
+}
+
+input {
+    font-size: 16px;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid #10B981;
+    color: #10B981;
+    text-align: center;
+    margin-top: 10px;
+    width: 231px;
+    margin-right: 10px;
+}
+
+
+::placeholder {
+    color: #273549;
+}
+
+/* layout */
+
+.container {
+    margin-top: 15.8vh; 
+    margin-left: 52px;
+    margin-right: 42px;
+    margin-bottom: 25px;
+    
+}
+.temp{
+    width: 211px;
+    height: 19px;
+}
+
+.button-container {
+    padding-bottom: 35px;
+}
+
+.password-container {
+    border-top: 1px solid #2F3E53;
+    padding-top: 35px;
+    width: 98%
+}
+
+.input-container {
+    margin-bottom: 10px;
+}
+
+.radio{
+    width: 10px;
+    margin-right: 0px;
+}
+
+label{
+    margin-right: 15px;
+    margin-left: 5px;
+    color: #D5D4D8;
+}
+
+.radios-container {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 637px){
+    .password-container {
+        width: 280px;
+    }
+    .input-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .radios-container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+}
